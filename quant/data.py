@@ -76,7 +76,7 @@ def _fetch_equity(ticker: str, start: str) -> pd.Series:
     return close
 
 
-def _fetch_crypto(ticker: str, days: int = 730) -> pd.Series:
+def _fetch_crypto(ticker: str, days: int = 365) -> pd.Series:
     cg_id = CRYPTO_IDS[ticker]
     url = f"{_COINGECKO_BASE}/coins/{cg_id}/market_chart"
     resp = requests.get(

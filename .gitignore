@@ -7,3 +7,4 @@ __pycache__/
 dist/
 build/
 .env
+notebooks/risk_factor_analysis.html
