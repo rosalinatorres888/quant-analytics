@@ -2,6 +2,8 @@
 
 Python library for realized risk metrics and factor analysis across an 11-asset universe.
 
+**Requires Python ≥ 3.10** (uses PEP 604 union types).
+
 **Assets:** AAPL NVDA MSFT TSLA GOOGL SPY QQQ VTI BTC ETH SOL
 
 **Interview framing:** Signal generation and outcome tracking live in an LLM-driven dashboard; risk and factor analytics live here — a Python library with tested, documented methodology.
