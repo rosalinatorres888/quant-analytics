@@ -1,12 +1,19 @@
 # quant-analytics
 
-Python library for realized risk metrics and factor analysis across an 11-asset universe.
+![tests](https://github.com/rosalinatorres888/quant-analytics/actions/workflows/tests.yml/badge.svg)
+![python](https://img.shields.io/badge/python-3.10%2B-blue)
+![license](https://img.shields.io/badge/license-MIT-green)
+
+Python library for realized risk metrics and factor analysis across an 11-asset universe
+(AAPL · NVDA · MSFT · TSLA · GOOGL · SPY · QQQ · VTI · BTC · ETH · SOL).
+
+Companion to **ROSE ALPHA**, an LLM-driven market intelligence dashboard: signal
+generation and outcome tracking live in the dashboard; the risk and factor
+methodology lives here, as a tested, documented Python library.
+
+![Risk & factor analysis preview](assets/preview.png)
 
 **Requires Python ≥ 3.10** (uses PEP 604 union types).
-
-**Assets:** AAPL NVDA MSFT TSLA GOOGL SPY QQQ VTI BTC ETH SOL
-
-**Interview framing:** Signal generation and outcome tracking live in an LLM-driven dashboard; risk and factor analytics live here — a Python library with tested, documented methodology.
 
 ---
 
